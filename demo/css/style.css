@@ -1,0 +1,74 @@
+/*登录页*/
+.navbar-inverse .navbar-nav>li>a,a.navbar-brand,.menu-left .list-group-item.active a{
+    color: #fff !important;
+}
+.signin{
+    background-color: #fff;
+    border-radius: 10px;
+    width:450px;
+    margin:auto;
+    padding: 10px 30px;
+}
+.head-title{
+    text-align: center;
+    font-size: 20px;
+}
+nav.navbar-inverse{border-color: #ccc;}
+.sub-header{
+    position: fixed;
+    top: 50px;
+    width:100%;
+}
+
+
+.sub-content{
+    position: fixed;
+    top: 92px;
+    left: 0px;
+}
+.menu-title{
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    border-bottom: 1px solid #cccccc;
+}
+.submenu{margin-top: 10px;}
+.submenu li{
+    border: 0px !important;
+    padding: 5px 10px !important;
+    margin-bottom: 5px !important;
+    text-align: center;
+}
+.col-md-2{width: 13.666667% !important;}
+.list-group{margin-bottom:0px !important;}
+.table-bordered>thead>tr>th{
+    text-align: center !important;
+    font-size: 13px;
+}
+.table-bordered>tbody td{
+    font-size: 12px;
+    text-align: center;
+}
+.col-md-10{width:85.333333%;}
+.custom-page{margin:0px !important;}
+.menu-left{padding-right:10px !important;}
+.menu-left .list-group-item.active{border-radius:10px;}
+.right-content{padding-left:0px !important;}
+#ordernum,#carnum{width:60%;}
+select[name=cid],select[name=sid]{
+    width: 30%;
+    float: left;
+}
+#assignOrder .form-group{margin-top:10px;}
+#assignOrder{top: 15% !important;}
+.right-content .col-sm-2{
+    text-align: center;
+    padding:5px;
+}
+.right-content .panel-body{
+    position: relative;
+
+    height: 550px;
+    overflow-y: scroll;
+}
